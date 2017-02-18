@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "446657444506",
+    "firebase_url": "https://hellonotifiche.firebaseio.com",
+    "project_id": "hellonotifiche",
+    "storage_bucket": "hellonotifiche.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446657444506:android:9d2170a23062d3c4",
+        "android_client_info": {
+          "package_name": "com.example.gabrysuerz.notifiche_es_12_01_2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446657444506-m4tq1fqap5t9nnejinf28f82fvtvk2i4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-mcTztx0pQGS7mp69UxbxpVC61zYJCQw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
