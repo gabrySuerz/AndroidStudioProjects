@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //LocalBroadcastManager.getInstance(MainActivity.this).sendBroadcast(new Intent("START_LONG"));
+                LocalBroadcastManager.getInstance(MainActivity.this).sendBroadcast(new Intent("START_LONG"));
             }
         });
     }

@@ -69,7 +69,7 @@ public class TestService extends Service {
 
     private void timerLog() {
         try {
-            for (int vCount = 0; vCount < 50; vCount++) {
+            for (int vCount = 0; vCount < 10; vCount++) {
                 Thread.sleep(100);
                 Log.i(TAG, "TIMER: " + vCount);
             }
