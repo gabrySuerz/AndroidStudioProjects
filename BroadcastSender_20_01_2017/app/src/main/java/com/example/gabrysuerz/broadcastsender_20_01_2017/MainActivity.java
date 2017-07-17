@@ -41,18 +41,19 @@ public class MainActivity extends AppCompatActivity {
         // usando il localBroadcastManager il messaggio rimane limitato all'applicazione
         // quindi non va dichiarato nel manifest
 
+        // qui viene solo dichiarato
         IntentFilter filter = new IntentFilter("TEST");
         LocalBroadcastManager.getInstance(this).registerReceiver(mBR, filter);
 
     }
 
     private void manageClick() {
+        // potrebbe essere chiamato in qualunque classe
         LocalBroadcastManager.getInstance(this).sendBroadcast(new Intent("TEST"));
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        LocalBroadcastManager.getInstance(this).unregisterReceiver(mBR);
     }
 }
