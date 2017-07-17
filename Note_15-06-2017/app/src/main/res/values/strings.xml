@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Note_15-06-2017</string>
+    <string name="settings">Impostazioni</string>
+    <string name="sign_in_cancelled">Procedura di login annullata</string>
+    <string name="no_internet_connection">Connessione mancante</string>
+    <string name="unknown_error">Errore sconosciuto</string>
+    <string name="unknown_sign_in_response">Errore di login sconosciuto</string>
+    <string name="title_activity_list_notes">Lista Note</string>
+    <string name="title_activity_new_note">Nuova Nota</string>
+    <string name="new_category">Nuova Categoria</string>
+    <string name="notes">Note</string>
+    <string name="categories">Categorie</string>
+    <string name="logout">Logout</string>
+    <string name="delete">Cancella account</string>
+</resources>
