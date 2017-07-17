@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_margin="@dimen/spacing"
+    tools:context="com.gabrysuerz.esame_2015.Activity.HOME01">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:gravity="center"
+            android:text="Numero totale allenamenti"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:id="@+id/txt_count_trainings"
+            android:gravity="center"
+            android:text="0"/>
+
+        <Button
+            android:id="@+id/btn_to_new01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nuovo Allenamento" />
+
+        <Button
+            android:id="@+id/btn_to_list01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elenco Allenamenti" />
+
+    </LinearLayout>
+
+</LinearLayout>
