@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin"
+    tools:context="com.esame.suerzgabriele_13_06_2017.HOME_01">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Numero allenamenti"
+            android:textAppearance="@android:style/TextAppearance.Large" />
+
+        <TextView
+            android:id="@+id/txt_training_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textAppearance="@android:style/TextAppearance.Large" />
+
+        <Button
+            android:id="@+id/btn_new_training"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nuovo allenamento" />
+
+        <Button
+            android:id="@+id/btn_training_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elenco Allenamenti" />
+
+    </LinearLayout>
+
+</RelativeLayout>
