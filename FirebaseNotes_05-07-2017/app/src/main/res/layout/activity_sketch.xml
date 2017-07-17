@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.gabrysuerz.firebasenotes_05_07_2017.Utils.CustomView
+        android:id="@+id/custom_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear_layout"></com.gabrysuerz.firebasenotes_05_07_2017.Utils.CustomView>
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Salva" />
+
+        <Button
+            android:id="@+id/btn_clean"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pulisci" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Annulla" />
+    </LinearLayout>
+
+</RelativeLayout>

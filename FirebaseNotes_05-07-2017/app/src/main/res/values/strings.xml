@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FirebaseNotes_05-07-2017</string>
+    <string name="action_filter_time">Ordina per data</string>
+    <string name="action_filter_name">Ordina per nome</string>
+    <string name="notes">Lista Note</string>
+    <string name="categories">Categorie</string>
+    <string name="logout">Logout</string>
+    <string name="delete">Elimina Account</string>
+    <string name="sign_in_cancelled">Annullato</string>
+    <string name="no_internet_connection">Controlla la connessione a internet</string>
+    <string name="unknown_error">Errore</string>
+    <string name="unknown_sign_in_response">Login non valido</string>
+    <string name="title_activity_edit_note">Modifica Nota</string>
+    <string name="title_activity_category">Categorie</string>
+    <string name="title_activity_detail_note">Dettaglio</string>
+</resources>
